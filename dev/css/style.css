@@ -1,0 +1,92 @@
+* {
+	box-sizing: border-box;
+}
+
+body {
+	background-color: #ECF0F6;
+	font-family: 'Lato', sans-serif;
+	margin: 0;
+}
+
+a, p, img, ul, li {
+	margin: 0;
+	padding: 0;
+	color: #1F3444;
+}
+
+a {
+	text-decoration: none;
+}
+
+.fixedwidth {
+	width: 1100px;
+	margin: 0 auto;
+}
+
+.headerbar {
+	margin:0;
+	padding: 0;
+	width:100%;
+	height: 50px;
+	background-color: #F7F7F7;
+	position: fixed;
+	top: 0;
+	z-index: 555;
+}
+
+.headerlogo {
+	padding:13px 13px;
+	/*margin:10px;*/
+	font-size: 1.25em;
+	color: #555555;
+	text-decoration: none;
+	float: left;
+}
+
+.headerlogo:hover {
+	background-color: #6FB7DF;
+}
+
+.topnav {
+	float: right;
+	/*margin-top:3px;*/
+	padding:0;
+	font-size: 1.04em;
+}
+
+.topnav_links li {
+	list-style: none;
+	float: left;
+	margin: 0;
+	padding: 15px;
+}
+
+.topnav_links li:hover {
+	background-color: lightgrey;
+}
+
+.content {
+	width: 100%;
+	height: 2000px;
+	margin-top: 80px;
+	padding: 10px;
+}
+
+.content_body_container {
+	height: 700px;
+}
+
+.iphone {
+	float: left;
+	width: 50%;
+	height: 100%;
+	border-right: 1px solid black;
+	background-color: #6FB7DF;
+}
+
+.ipad {
+	float: right;
+	width: 50%;
+	height: 100%;
+	background-color: #6FB7DF;
+}
